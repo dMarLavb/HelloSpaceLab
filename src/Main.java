@@ -1,8 +1,9 @@
 public class Main {
-    public static void main(String[] args) {
-        Main.methodHello();
-    }
-    private static void methodHello() {
+    public void methodHello() {
         System.out.print("Hello SpaceLab Java!");
+    }
+    public static void main(String[] args) {
+        Main main = new Main();
+        main.methodHello();
     }
 }
